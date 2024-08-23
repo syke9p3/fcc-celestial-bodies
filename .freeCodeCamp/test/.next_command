@@ -283,3 +283,4 @@ pg_dump -cC --inserts -U freecodecamp universe > save4.sql
 psql --username=freecodecamp --dbname=postgrespsql
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=universe
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
